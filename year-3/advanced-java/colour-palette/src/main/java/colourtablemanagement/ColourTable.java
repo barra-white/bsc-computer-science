@@ -89,7 +89,7 @@ public class ColourTable {
 
         for (int i = 0; i < this.getPaletteSize(); i++) {
             if (this.getColourAtIndex(i) != null) {
-                String colourString = this.getColourAtIndex(i).toString(); // N.B. regex for tab at beginning of each line adapted from chatGPT
+                String colourString = this.getColourAtIndex(i).toString();
                 colourString = colourString.replaceAll("(?m)^", "\t\t"); // add a tab at the beginning of each line
                 palette.append(colourString); // append to string representation
             }
