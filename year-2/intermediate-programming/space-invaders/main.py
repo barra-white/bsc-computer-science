@@ -90,11 +90,11 @@ code taken from https://stackoverflow.com/questions/739882/iterating-over-object
 #enemycode taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-pythonclass
 classcode taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-pythonEnemy(pygame.sprite.Sprite):
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   #to log instances of enemy class
-code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   _registry = [] #code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python
+code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   _registry = []
 
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   def __init__(self, speed):
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       #add itself to enemy class
-code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       self._registry.append(self) #code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python
+code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       self._registry.append(self)
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       #super from sprite class
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       super().__init__()
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       #set size
@@ -123,10 +123,10 @@ code taken from https://stackoverflow.com/questions/739882/iterating-over-object
 #bulletcode taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-pythonclass
 classcode taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-pythonBullet(pygame.sprite.Sprite):
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   #to log instances of bullet class
-code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   _registry = [] #code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python
+code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   _registry = []
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python   def __init__(self, x, y):
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       #add itself to bullet class
-code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       self._registry.append(self) #code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python
+code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       self._registry.append(self)
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       super().__init__()
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       #set height
 code taken from https://stackoverflow.com/questions/739882/iterating-over-object-instances-of-a-given-class-in-python       self.height = 25
