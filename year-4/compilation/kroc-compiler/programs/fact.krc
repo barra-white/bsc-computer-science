@@ -1,0 +1,14 @@
+# Factorial program in Kroc language -
+
+read x; # input an integer 
+if (0 < x ) # don't compute if x <= 0 
+  {
+  fact = 1;
+  while (x > 0)
+    {
+    fact = fact * x;
+    x = x - 1;
+    }
+  write fact;  # output factorial of x 
+  }
+
